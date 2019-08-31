@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/site.css" type="text/css"/>
+    <title>broker, acid!</title>
+</head>
+<body>
+<nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">BROKER ACID</a>
+    <ul class="navbar-nav px-3">
+        <li class="nav-item text-nowrap">
+            <a class="nav-link" href="#"><i class="fas fa-power-off"></i> Salir</a>
+        </li>
+    </ul>
+</nav>
+<div class="container-fluid">
+    <div class="row">
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+            <div class="sidebar-sticky">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">
+                            <i class="fas fa-home"></i>
+                            Dashboard <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="empleado.html">
+                            <i class="fas fa-user-friends"></i>
+                            Empleados
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="proyecto.html">
+                            <i class="fas fa-project-diagram"></i>
+                            Proyectos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tarea.html">
+                            <i class="fas fa-tasks"></i>
+                            Tareas
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="incidencias.html">
+                            <i class="fas fa-user-secret"></i>
+                            Incidencias
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cronograma.html">
+                            <i class="far fa-calendar-alt"></i>
+                            Cronogramas
+                        </a>
+                    </li>
+                </ul>
+
+                <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                    <span>Saved reports</span>
+                    <a class="d-flex align-items-center text-muted" href="#">
+                        <span data-feather="plus-circle"></span>
+                    </a>
+                </h6>
+                <ul class="nav flex-column mb-2">
+                    <li class="nav-item">
+                        <a class="nav-link" href="reporte.html">
+                            <i class="fas fa-file-alt"></i>
+                            Reportes
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="estadistica.html">
+                            <i class="fas fa-signal"></i>
+                            Estadisticas
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                <h4 class="h4">Crear Proyecto</h4>
+                <div class="btn-toolbar mb-2 mb-md-0">
+                    <div class="btn-group mr-2">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Guardar</button>
+                        <a href="proyecto.html" class="btn btn-sm btn-outline-secondary">Salir</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group row">
+                        <label  class="col-sm-2 col-form-label">Sector</label>
+                        <div class="col-sm-4">
+                            <input type="text"  class="form-control form-control-sm"  value="">
+                        </div>
+                        <label  class="col-sm-2 col-form-label">Codigo</label>
+                        <div class="col-sm-4">
+                            <input type="text"  class="form-control form-control-sm"  value="">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label  class="col-sm-2 col-form-label">Nombre</label>
+                        <div class="col-sm-4">
+                            <input type="text"  class="form-control form-control-sm"  value="">
+                        </div>
+                        <label  class="col-sm-2 col-form-label">Descripcion</label>
+                        <div class="col-sm-4">
+                            <input type="text"  class="form-control form-control-sm"  value="">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label  class="col-sm-2 col-form-label">Fecha Inicio</label>
+                        <div class="col-sm-4">
+                            <input type="date"  class="form-control form-control-sm"  value="">
+                        </div>
+                        <label  class="col-sm-2 col-form-label">Fecha Final</label>
+                        <div class="col-sm-4">
+                            <input type="date"  class="form-control form-control-sm"  value="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </main>
+    </div>
+</div>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
